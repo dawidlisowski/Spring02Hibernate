@@ -1,0 +1,10 @@
+PUT http://localhost:8080/api/books/1
+Content-Type: application/json
+
+{
+"isbn" : "123123",
+"title" : "Thinking in Java very hard",
+"author" : "Bruce Eckel",
+"publisher" : "Helion",
+"type" : "programming"
+}

@@ -1,0 +1,10 @@
+POST http://localhost:8080/api/books
+Content-Type: application/json
+
+{
+"isbn" : "123123",
+"title" : "Thinking in Java",
+"author" : "Bruce Eckel",
+"publisher" : "Helion",
+"type" : "programming"
+}
